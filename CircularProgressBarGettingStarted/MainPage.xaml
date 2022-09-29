@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CircularProgressBarGettingStarted.MainPage"
+             xmlns:progressBar="clr-namespace:Syncfusion.Maui.ProgressBar;assembly=Syncfusion.Maui.ProgressBar">
+
+    <ContentPage.Content>
+        <progressBar:SfCircularProgressBar Progress="75"
+                                           SegmentCount="4"
+                                           TrackFill="#33c15244" 
+                                           ProgressFill="#FFc15244"
+                                           IsIndeterminate="False"/>
+    </ContentPage.Content>
+</ContentPage>
